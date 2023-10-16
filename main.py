@@ -78,21 +78,16 @@
 
 # all_users = {"aaa": "111", "bbb": "222", "ccc": "333"}
 # while True:
-#     username = input("Enter your username: ")
-#     password = input("Enter your password: ")
+#     entered_username = input("Enter your username: ")
+#     entered_password = input("Enter your password: ")
 #     # if username in all_users and all_users[username] == password: # si eilute is GPTchat
-#     if username == "aaa" and password == "111":
-#      print("Login successful")
-#      break
-#     elif username == "bbb" and password == "222":
-#       print("Login successful")
-#       break
-#     elif username == "ccc" and password == "333":
-#       print("Login successful")
-#       break
-#     else:
-#      print("Login failed")
-
+#     for username, password in all_users.items():
+#         if entered_username == username and entered_password == password:
+#             print("welcome")
+#             break
+#         else:
+#             print("Wrong")   
+ 
 # 2.
 # Allow user to enter 10 integers, and then print the sum and average of those entered numbers.
 
@@ -152,5 +147,103 @@
 # else:
 #   print("The pin code is not valid.")
 
+
+# pin = 1111  #Sauliaus
+# i = 0
+# while i != pin:
+#     i =+ 1
+# print()
+
+# import time   #Renato
+# start_time = time.time()
+# while True:
+#     pin_code = int(input("enter"))
+#     for numbers in range(0, 1000):
+#         print(numbers)
+#         if number == pin_code:
+#             break
+#     end_time = time.time()
+#     print("lux")  
+
+# Mykolo
+# all_users = {"aaa": "111", "bbb": "222", "ccc": "333"}
+# value = True
+# while value == True:
+#     entered_username = input("Enter your username: ")
+#     entered_password = input("Enter your password: ") 
+#     for username, password in all_users.items():
+#         if entered_username == username and entered_password == password:
+#             print("Welcome")
+#             break
+# value = False
+# print("Wrong")
+# Vytauto
+# all_users = {"aaa": "111", "bbb": "222", "ccc": "333"}
+# while True:
+#     entered_username = input("Enter your username: ")
+#     entered_password = input("Enter your password: ")
+#     for username, password in all_users.items():
+#         user_exists = entered_username == username and entered_password == password
+#         if user_exists:
+#             print:("welcome")
+
+# Mykolo 
+# Task number 3
+# random_dict = {}
+# for i in range(1,11):
+#     random_dict[i] = random.randint(1,100)
+#     print(random_dict)
+    
+#Task number 4
+# import time
+# pin = '1010'
+# locked = Truestart_time = time.perf_counter()
+# while locked:
+#         for digit1 in range(10):
+#             for digit2 in range(10):
+#                 for digit3 in range(10):
+#                     for digit4 in range(10):
+#                         current_attempt = f"{digit1}{digit2}{digit3}{digit4}"  
+#                         if current_attempt == pin:
+#                             print(f"Pin Cracked! The correct pin is: {current_attempt}") 
+#         break
+# locked = Falseend_time = time.perf_counter()
+# elapsed_time = end_time - start_time
+# print(f'Elapsed time: {elapsed_time} seconds')
+
+# Renato
+# import time
+# while True:
+#     pin_code = int(input("Enter your number from 0 to 1000000: "))
+#     start_time = time.time()
+#     for number in range(-1, 1000001):
+#         print(number)
+#         if  number == pin_code:
+#             break
+#         end_time = time.time()
+#         print("I guess your number was: ", number, "Time to bruteforce: ", end_time-start_time)
+#     play_again = input("Do you want to try again ? (yes/no): ")
+#     if play_again.lower() == "yes":
+#         print("Super, lets have a fun ! ")
+#     elif play_again.lower() == "no":
+#         print ("It's a pitty, see you next time !")
+#         break
+
+# import random
+# numbers_dictionary = {}
+# for number in range(1,10):
+#     random_value = random.randint(1, 100)
+#     numbers_dictionary[number] = random_value
+#     print(numbers_dictionary)
+
+# Sauliaus
+# pin = "9235"
+# chars = ["1","2","3","4","5","6","7","8","9","0"]
+# pin_guse = []
+# for simb in pin:
+#     for si in chars:
+#         if si == simb:
+#             pin_guse.append(si)
+# print(pin_guse)
 
 
